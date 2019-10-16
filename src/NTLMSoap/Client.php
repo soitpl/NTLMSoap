@@ -1,6 +1,6 @@
 <?php
 
-namespace NTLMSoap;
+namespace soIT\NTLMSoap;
 
 use Exception;
 use SoapFault;
