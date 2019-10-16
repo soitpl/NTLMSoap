@@ -1,17 +1,22 @@
 {
-    "name": "mlabrum/ntlm-soap",
-    "description": "Provides a NTLM Soap implementation",
-    "authors": [
-        {
-            "name": "Matt Labrum",
-            "email": "matt@labrum.me"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-	"psr/log": "1.0.0"
-    },
-     "autoload": {
-        "psr-0": {"NTLMSoap": "src/"}
+  "name": "soitpl/ntlm-soap",
+  "description": "Provides a NTLM Soap implementation",
+  "authors": [
+    {
+      "name": "Matt Labrum",
+      "email": "matt@labrum.me"
     }
+  ],
+  "minimum-stability": "stable",
+  "version": "0.1.1",
+  "require": {
+    "psr/log": "1.0.0",
+    "ext-soap": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "NTLMSoap": "src/"
+    }
+  }
 }
