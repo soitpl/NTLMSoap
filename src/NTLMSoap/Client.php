@@ -143,7 +143,7 @@ class Client extends \SoapClient
         if (
             !stream_wrapper_register(
                 $this->getProtocol(),
-                '\\NTLMSoap\\HttpStream\\NTLM'
+                'soIT\\NTLMSoap\\HttpStream\\NTLM'
             )
         ) {
             throw new Exception(
